@@ -2,18 +2,20 @@
 
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
-import { places } from "@/data/places";
+import { places, type Place } from "@/data/places";
 import {
   getOrCreateVoterColor,
   getVotes,
   toggleVote,
 } from "@/lib/cookies";
 import WalkCard from "./WalkCard";
+import VideoOverlay from "./VideoOverlay";
 
 export default function WalksGrid() {
   const [voterColor, setVoterColor] = useState("#FF6B9D");
   const [votes, setVotes] = useState<string[]>([]);
   const [ready, setReady] = useState(false);
+  const [watching, setWatching] = useState<Place | null>(null);
 
   useEffect(() => {
     setVoterColor(getOrCreateVoterColor());
@@ -24,6 +26,14 @@ export default function WalksGrid() {
   const handleChoose = useCallback((id: string) => {
     const next = toggleVote(id);
     setVotes(next);
+  }, []);
+
+  const handleOpenVideo = useCallback((place: Place) => {
+    setWatching(place);
+  }, []);
+
+  const handleCloseVideo = useCallback(() => {
+    setWatching(null);
   }, []);
 
   return (
@@ -72,9 +82,14 @@ export default function WalksGrid() {
             chosen={votes.includes(place.id)}
             voterColor={voterColor}
             onChoose={handleChoose}
+            onOpenVideo={handleOpenVideo}
           />
         ))}
       </div>
+
+      {watching && (
+        <VideoOverlay place={watching} onClose={handleCloseVideo} />
+      )}
     </div>
   );
 }

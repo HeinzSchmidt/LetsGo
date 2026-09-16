@@ -4,6 +4,8 @@ export type Place = {
   blurb: string;
   image: string;
   emoji: string;
+  /** Optional watch, youtu.be, or embed URL. Cards without it skip the video overlay. */
+  youtubeUrl?: string;
 };
 
 /** Seed walks — edit this file (or swap to places.json) to add more. */
@@ -14,6 +16,7 @@ export const places: Place[] = [
     blurb: "Big trees and soft grass. Run and play!",
     image: "/walks/park.svg",
     emoji: "🌳",
+    youtubeUrl: "https://www.youtube.com/watch?v=3oLculV1Od8",
   },
   {
     id: "pebble-beach",
@@ -21,6 +24,7 @@ export const places: Place[] = [
     blurb: "Find shells. Splash in the waves!",
     image: "/walks/beach.svg",
     emoji: "🏖️",
+    youtubeUrl: "https://youtu.be/S0uAPbG6hX4",
   },
   {
     id: "whisper-forest",
@@ -42,6 +46,7 @@ export const places: Place[] = [
     blurb: "Feed the ducks. Watch them swim!",
     image: "/walks/lake.svg",
     emoji: "🦆",
+    youtubeUrl: "https://www.youtube.com/embed/etrw4ul9HGA",
   },
   {
     id: "rainbow-hill",

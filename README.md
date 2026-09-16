@@ -70,8 +70,11 @@ Edit **`src/data/places.ts`**. Each place needs:
   blurb: "Short under-10 text!",
   image: "/walks/my-image.svg", // file under public/
   emoji: "🌟",
+  youtubeUrl: "https://www.youtube.com/watch?v=...", // optional
 }
 ```
+
+`youtubeUrl` is optional. Watch URLs, `youtu.be` links, and embed URLs all work. Places with a URL show a play badge; tapping the card (image / title / blurb) opens a full-screen YouTube overlay. **CHOOSE** does not open the video — it only toggles the vote. Cards without a URL behave as before.
 
 1. Drop a photo or SVG into `public/walks/`.
 2. Add an entry to the `places` array in `src/data/places.ts`.
@@ -82,7 +85,7 @@ You can also keep a mirror list in `places.json` if you prefer JSON — the app 
 ## Pages
 
 - `/` — Home: big **LETS GO!** title, kid tagline, button to walks
-- `/walks` — Grid of places with photo, name, and **CHOOSE** toggle
+- `/walks` — Grid of places with photo, name, **CHOOSE** toggle, and optional YouTube overlay
 
 ## Design notes
 
