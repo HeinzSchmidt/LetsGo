@@ -88,6 +88,7 @@ export default function VideoOverlay({ place, onClose }: Props) {
             src={embedUrl}
             title={`${place.name} video`}
             className="absolute inset-0 h-full w-full border-0"
+            referrerPolicy="strict-origin-when-cross-origin"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
