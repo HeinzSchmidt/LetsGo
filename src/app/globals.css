@@ -20,7 +20,8 @@ body {
 
 /* Big touch-friendly focus rings for iPad / Safari */
 button:focus-visible,
-a:focus-visible {
+a:focus-visible,
+[role="dialog"] iframe:focus-visible {
   outline: 3px solid #4FC3F7;
   outline-offset: 3px;
 }
