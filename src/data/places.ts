@@ -1,0 +1,67 @@
+export type Place = {
+  id: string;
+  name: string;
+  blurb: string;
+  image: string;
+  emoji: string;
+};
+
+/** Seed walks — edit this file (or swap to places.json) to add more. */
+export const places: Place[] = [
+  {
+    id: "sunny-park",
+    name: "Sunny Park",
+    blurb: "Big trees and soft grass. Run and play!",
+    image: "/walks/park.svg",
+    emoji: "🌳",
+  },
+  {
+    id: "pebble-beach",
+    name: "Pebble Beach",
+    blurb: "Find shells. Splash in the waves!",
+    image: "/walks/beach.svg",
+    emoji: "🏖️",
+  },
+  {
+    id: "whisper-forest",
+    name: "Whisper Forest",
+    blurb: "Tall trees. Look for squirrels!",
+    image: "/walks/forest.svg",
+    emoji: "🌲",
+  },
+  {
+    id: "toy-castle",
+    name: "Toy Castle",
+    blurb: "Climb the steps. Wave from the top!",
+    image: "/walks/castle.svg",
+    emoji: "🏰",
+  },
+  {
+    id: "duck-lake",
+    name: "Duck Lake",
+    blurb: "Feed the ducks. Watch them swim!",
+    image: "/walks/lake.svg",
+    emoji: "🦆",
+  },
+  {
+    id: "rainbow-hill",
+    name: "Rainbow Hill",
+    blurb: "Walk up high. See far away!",
+    image: "/walks/hill.svg",
+    emoji: "⛰️",
+  },
+  {
+    id: "happy-farm",
+    name: "Happy Farm",
+    blurb: "Meet cows and lambs. Say hello!",
+    image: "/walks/farm.svg",
+    emoji: "🐄",
+  },
+  {
+    id: "fun-zoo",
+    name: "Fun Zoo",
+    blurb: "See lions and monkeys. Roar!",
+    image: "/walks/zoo.svg",
+    emoji: "🦁",
+  },
+];

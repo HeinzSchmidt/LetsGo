@@ -1,0 +1,6 @@
+services:
+  letsgo:
+    build: .
+    ports:
+      - "8866:3000"
+    restart: unless-stopped
