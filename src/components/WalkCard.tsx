@@ -38,19 +38,19 @@ export default function WalkCard({
           src={place.image}
           alt={place.name}
           fill
-          className="object-cover"
+          className="object-cover pointer-events-none"
           sizes="(max-width: 768px) 100vw, 33vw"
           unoptimized
         />
         <span
-          className="absolute top-3 left-3 text-4xl drop-shadow-md"
+          className="absolute top-3 left-3 z-10 text-4xl drop-shadow-md"
           aria-hidden
         >
           {place.emoji}
         </span>
         {chosen && (
           <span
-            className="absolute top-3 right-3 flex items-center justify-center w-12 h-12 rounded-full text-white text-2xl font-black shadow-md"
+            className="absolute top-3 right-3 z-10 flex items-center justify-center w-12 h-12 rounded-full text-white text-2xl font-black shadow-md"
             style={{ backgroundColor: voterColor }}
             aria-label="Chosen"
           >
@@ -60,7 +60,7 @@ export default function WalkCard({
         {hasVideo && (
           <button
             type="button"
-            className="absolute inset-0 flex items-center justify-center"
+            className="absolute inset-0 z-10 flex items-center justify-center"
             onClick={(event) => {
               event.stopPropagation();
               onOpenVideo(place);
@@ -68,7 +68,7 @@ export default function WalkCard({
             aria-label={`Watch a video about ${place.name}`}
           >
             <span
-              className="flex h-16 w-16 sm:h-[4.5rem] sm:w-[4.5rem] items-center justify-center rounded-full border-4 border-white text-white shadow-lg"
+              className="flex h-16 w-16 sm:h-[4.5rem] sm:w-[4.5rem] shrink-0 items-center justify-center rounded-full border-4 border-white text-white shadow-lg"
               style={{
                 background: "linear-gradient(135deg, #FF6B9D, #FF7043)",
               }}
@@ -82,6 +82,13 @@ export default function WalkCard({
               >
                 <path d="M8 5.14v13.72L19.5 12 8 5.14z" />
               </svg>
+            </span>
+            <span
+              className="absolute bottom-3 right-3 rounded-full bg-white px-3 py-1 text-sm sm:text-base font-black shadow-md"
+              style={{ color: "#FF6B9D" }}
+              aria-hidden
+            >
+              ▶ Video
             </span>
           </button>
         )}
