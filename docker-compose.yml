@@ -1,0 +1,19 @@
+services:
+  letsgo:
+    build: .
+    image: letsgo
+    container_name: letsgo
+    ports:
+      - "8860:80"
+    volumes:
+      - letsgo-votes:/app/data/runtime
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1/')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  letsgo-votes:

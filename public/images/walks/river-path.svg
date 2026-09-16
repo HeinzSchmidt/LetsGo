@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="River Path">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#29B6F6"/>
+      <stop offset="100%" stop-color="#E1F5FE"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0288D1"/>
+      <stop offset="50%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#0277BD"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <circle cx="70" cy="50" r="30" fill="#FFF176"/>
+  <rect y="150" width="480" height="170" fill="#81C784"/>
+  <path d="M0 0 L170 320 L0 320 Z" fill="#66BB6A"/>
+  <path d="M480 0 L310 320 L480 320 Z" fill="#66BB6A"/>
+  <path d="M188 0 C210 80 150 140 200 200 C250 260 180 300 210 320 L270 320 C300 280 230 240 280 180 C330 120 270 60 292 0 Z" fill="url(#water)"/>
+  <path d="M230 40 C242 90 200 130 236 180" stroke="#E1F5FE" stroke-width="6" fill="none" opacity=".5" stroke-linecap="round"/>
+  <ellipse cx="96" cy="210" rx="22" ry="10" fill="#A1887F"/>
+  <ellipse cx="130" cy="248" rx="26" ry="12" fill="#8D6E63"/>
+  <ellipse cx="360" cy="200" rx="24" ry="11" fill="#A1887F"/>
+  <ellipse cx="390" cy="250" rx="28" ry="12" fill="#6D4C41"/>
+  <rect x="40" y="120" width="14" height="50" fill="#6D4C41"/>
+  <circle cx="47" cy="110" r="28" fill="#2E7D32"/>
+  <rect x="420" y="110" width="14" height="55" fill="#5D4037"/>
+  <circle cx="427" cy="98" r="30" fill="#1B5E20"/>
+  <circle cx="250" cy="270" r="8" fill="#FF8A65"/>
+  <circle cx="268" cy="282" r="6" fill="#FFCC80"/>
+</svg>

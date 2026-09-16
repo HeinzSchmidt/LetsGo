@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Beach Walk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#29B6F6"/>
+      <stop offset="55%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#FFF9C4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0288D1"/>
+      <stop offset="100%" stop-color="#4FC3F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <circle cx="90" cy="58" r="40" fill="#FFD54F"/>
+  <circle cx="90" cy="58" r="26" fill="#FFF176"/>
+  <rect y="150" width="480" height="90" fill="url(#sea)"/>
+  <path d="M0 200 Q60 180 120 198 T240 188 T360 205 T480 190 L480 240 L0 240 Z" fill="#E1F5FE" opacity=".7"/>
+  <rect y="230" width="480" height="90" fill="#FFE082"/>
+  <path d="M0 228 Q80 250 160 232 T320 248 T480 230 L480 320 L0 320 Z" fill="#FFCC80"/>
+  <ellipse cx="80" cy="280" rx="16" ry="10" fill="#FFAB91"/>
+  <path d="M80 270 Q72 262 80 258 Q88 262 80 270" fill="#FF8A65"/>
+  <ellipse cx="200" cy="270" rx="14" ry="9" fill="#F8BBD0"/>
+  <ellipse cx="360" cy="286" rx="18" ry="11" fill="#CE93D8"/>
+  <path d="M360 276 Q350 266 360 262 Q370 266 360 276" fill="#AB47BC"/>
+  <rect x="300" y="210" width="10" height="36" fill="#A1887F"/>
+  <polygon points="305,168 278,214 332,214" fill="#43A047"/>
+  <circle cx="430" cy="80" r="14" fill="#fff" opacity=".8"/>
+  <circle cx="448" cy="80" r="10" fill="#fff" opacity=".8"/>
+  <circle cx="418" cy="86" r="9" fill="#fff" opacity=".8"/>
+</svg>

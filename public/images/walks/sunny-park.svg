@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Sunny Park">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="70%" stop-color="#B3E5FC"/>
+      <stop offset="100%" stop-color="#FFF59D"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <circle cx="400" cy="56" r="42" fill="#FFD54F"/>
+  <circle cx="400" cy="56" r="28" fill="#FFF176"/>
+  <ellipse cx="90" cy="70" rx="44" ry="22" fill="#fff" opacity=".9"/>
+  <ellipse cx="120" cy="70" rx="28" ry="16" fill="#fff" opacity=".9"/>
+  <ellipse cx="220" cy="48" rx="36" ry="18" fill="#fff" opacity=".85"/>
+  <rect y="210" width="480" height="110" fill="#7CB342"/>
+  <ellipse cx="240" cy="230" rx="200" ry="28" fill="#8BC34A"/>
+  <path d="M0 250 Q120 220 240 248 T480 240 L480 320 L0 320 Z" fill="#66BB6A"/>
+  <rect x="40" y="168" width="14" height="70" rx="4" fill="#8D6E63"/>
+  <circle cx="47" cy="150" r="36" fill="#43A047"/>
+  <circle cx="28" cy="162" r="22" fill="#2E7D32"/>
+  <circle cx="68" cy="164" r="24" fill="#388E3C"/>
+  <rect x="300" y="150" width="16" height="80" rx="4" fill="#6D4C41"/>
+  <circle cx="308" cy="128" r="40" fill="#2E7D32"/>
+  <circle cx="286" cy="142" r="24" fill="#43A047"/>
+  <circle cx="332" cy="144" r="26" fill="#388E3C"/>
+  <path d="M150 210 L150 130" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 136 C120 136 118 176 118 176" stroke="#FB8C00" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M150 136 C180 136 182 176 182 176" stroke="#FB8C00" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <rect x="112" y="172" width="12" height="8" rx="3" fill="#FFCA28"/>
+  <rect x="176" y="172" width="12" height="8" rx="3" fill="#FFCA28"/>
+  <rect x="200" y="198" width="70" height="10" rx="3" fill="#A1887F"/>
+  <rect x="206" y="186" width="8" height="22" rx="2" fill="#8D6E63"/>
+  <rect x="256" y="186" width="8" height="22" rx="2" fill="#8D6E63"/>
+  <circle cx="430" cy="250" r="10" fill="#EC407A"/>
+  <circle cx="452" cy="258" r="8" fill="#AB47BC"/>
+  <circle cx="418" cy="268" r="7" fill="#FFEE58"/>
+</svg>

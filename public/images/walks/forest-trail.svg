@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Forest Trail">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <rect y="220" width="480" height="100" fill="#558B2F"/>
+  <path d="M0 230 C80 210 140 250 240 228 C340 206 400 250 480 220 L480 320 L0 320 Z" fill="#689F38"/>
+  <g fill="#2E7D32">
+    <rect x="36" y="150" width="18" height="90" fill="#5D4037"/>
+    <polygon points="45,40 8,170 82,170"/>
+    <rect x="110" y="170" width="16" height="80" fill="#6D4C41"/>
+    <polygon points="118,70 80,190 156,190"/>
+    <rect x="200" y="130" width="20" height="110" fill="#4E342E"/>
+    <polygon points="210,20 160,165 260,165"/>
+    <rect x="300" y="160" width="16" height="90" fill="#5D4037"/>
+    <polygon points="308,55 268,180 348,180"/>
+    <rect x="380" y="140" width="18" height="100" fill="#6D4C41"/>
+    <polygon points="389,30 344,170 434,170"/>
+    <rect x="440" y="175" width="14" height="70" fill="#4E342E"/>
+    <polygon points="447,90 414,190 480,190"/>
+  </g>
+  <path d="M0 300 Q120 250 240 280 T480 260" fill="none" stroke="#A1887F" stroke-width="18" stroke-linecap="round"/>
+  <path d="M0 300 Q120 250 240 280 T480 260" fill="none" stroke="#D7CCC8" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="160" cy="292" rx="12" ry="7" fill="#8D6E63"/>
+  <circle cx="90" cy="280" r="8" fill="#EF5350"/>
+  <rect x="88" y="280" width="4" height="10" fill="#FFE082"/>
+  <circle cx="92" cy="278" r="3" fill="#FFF"/>
+  <circle cx="350" cy="270" r="10" fill="#AB47BC"/>
+  <rect x="348" y="270" width="4" height="12" fill="#FFE082"/>
+</svg>

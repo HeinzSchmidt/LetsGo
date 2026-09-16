@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Flower Meadow">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#FFF59D"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <circle cx="400" cy="50" r="38" fill="#FFD54F"/>
+  <ellipse cx="90" cy="70" rx="40" ry="18" fill="#fff" opacity=".9"/>
+  <ellipse cx="118" cy="70" rx="24" ry="14" fill="#fff" opacity=".9"/>
+  <rect y="160" width="480" height="160" fill="#8BC34A"/>
+  <path d="M0 180 Q120 140 240 175 T480 150 L480 320 L0 320 Z" fill="#9CCC65"/>
+  <g>
+    <g transform="translate(70 200)">
+      <line x1="0" y1="0" x2="0" y2="50" stroke="#2E7D32" stroke-width="4"/>
+      <circle cx="0" cy="0" r="12" fill="#EC407A"/>
+      <circle cx="-10" cy="4" r="8" fill="#F48FB1"/>
+      <circle cx="10" cy="4" r="8" fill="#F48FB1"/>
+      <circle cx="0" cy="-10" r="8" fill="#F8BBD0"/>
+      <circle cx="0" cy="0" r="5" fill="#FFEE58"/>
+    </g>
+    <g transform="translate(140 230)">
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#2E7D32" stroke-width="4"/>
+      <circle cx="0" cy="0" r="11" fill="#7E57C2"/>
+      <circle cx="-9" cy="5" r="7" fill="#B39DDB"/>
+      <circle cx="9" cy="5" r="7" fill="#B39DDB"/>
+      <circle cx="0" cy="-9" r="7" fill="#D1C4E9"/>
+      <circle cx="0" cy="0" r="4" fill="#FFEE58"/>
+    </g>
+    <g transform="translate(220 190)">
+      <line x1="0" y1="0" x2="0" y2="55" stroke="#2E7D32" stroke-width="4"/>
+      <circle cx="0" cy="0" r="13" fill="#FB8C00"/>
+      <circle cx="-11" cy="5" r="8" fill="#FFB74D"/>
+      <circle cx="11" cy="5" r="8" fill="#FFB74D"/>
+      <circle cx="0" cy="-11" r="8" fill="#FFE0B2"/>
+      <circle cx="0" cy="0" r="5" fill="#FFF176"/>
+    </g>
+    <g transform="translate(300 225)">
+      <line x1="0" y1="0" x2="0" y2="42" stroke="#2E7D32" stroke-width="4"/>
+      <circle cx="0" cy="0" r="12" fill="#1E88E5"/>
+      <circle cx="-10" cy="4" r="7" fill="#64B5F6"/>
+      <circle cx="10" cy="4" r="7" fill="#64B5F6"/>
+      <circle cx="0" cy="-10" r="7" fill="#BBDEFB"/>
+      <circle cx="0" cy="0" r="4" fill="#FFEE58"/>
+    </g>
+    <g transform="translate(380 200)">
+      <line x1="0" y1="0" x2="0" y2="50" stroke="#2E7D32" stroke-width="4"/>
+      <circle cx="0" cy="0" r="12" fill="#E53935"/>
+      <circle cx="-10" cy="4" r="8" fill="#EF9A9A"/>
+      <circle cx="10" cy="4" r="8" fill="#EF9A9A"/>
+      <circle cx="0" cy="-10" r="8" fill="#FFCDD2"/>
+      <circle cx="0" cy="0" r="5" fill="#FFEE58"/>
+    </g>
+    <g transform="translate(430 250)">
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#2E7D32" stroke-width="3"/>
+      <circle cx="0" cy="0" r="9" fill="#8E24AA"/>
+      <circle cx="0" cy="0" r="4" fill="#FFEE58"/>
+    </g>
+  </g>
+  <g transform="translate(300 90)">
+    <ellipse cx="0" cy="8" rx="16" ry="6" fill="#FFD54F"/>
+    <circle cx="-12" cy="8" r="8" fill="#FFF"/>
+    <circle cx="12" cy="8" r="8" fill="#FFF"/>
+    <circle cx="-16" cy="8" r="2" fill="#333"/>
+    <circle cx="8" cy="6" r="2" fill="#333"/>
+  </g>
+</svg>

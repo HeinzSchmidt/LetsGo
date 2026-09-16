@@ -1,0 +1,52 @@
+{
+  "walks": [
+    {
+      "id": "sunny-park",
+      "name": "Sunny Park",
+      "words": ["sun", "park", "play"],
+      "image": "/images/walks/sunny-park.svg"
+    },
+    {
+      "id": "river-path",
+      "name": "River Path",
+      "words": ["river", "path", "water"],
+      "image": "/images/walks/river-path.svg"
+    },
+    {
+      "id": "big-hill",
+      "name": "Big Hill",
+      "words": ["hill", "up", "view"],
+      "image": "/images/walks/big-hill.svg"
+    },
+    {
+      "id": "forest-trail",
+      "name": "Forest Trail",
+      "words": ["trees", "woods", "path"],
+      "image": "/images/walks/forest-trail.svg"
+    },
+    {
+      "id": "duck-pond",
+      "name": "Duck Pond",
+      "words": ["duck", "pond", "splash"],
+      "image": "/images/walks/duck-pond.svg"
+    },
+    {
+      "id": "beach-walk",
+      "name": "Beach Walk",
+      "words": ["sand", "sea", "shell"],
+      "image": "/images/walks/beach-walk.svg"
+    },
+    {
+      "id": "castle-path",
+      "name": "Castle Path",
+      "words": ["castle", "flag", "walk"],
+      "image": "/images/walks/castle-path.svg"
+    },
+    {
+      "id": "flower-meadow",
+      "name": "Flower Meadow",
+      "words": ["flower", "bee", "meadow"],
+      "image": "/images/walks/flower-meadow.svg"
+    }
+  ]
+}

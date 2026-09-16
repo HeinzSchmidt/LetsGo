@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Big Hill">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="45%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#FFE082"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <circle cx="380" cy="70" r="36" fill="#FFF59D"/>
+  <ellipse cx="80" cy="90" rx="50" ry="22" fill="#fff" opacity=".9"/>
+  <ellipse cx="110" cy="90" rx="30" ry="16" fill="#fff" opacity=".9"/>
+  <path d="M-20 320 L40 210 Q120 120 200 160 T360 90 L500 200 L500 320 Z" fill="#43A047"/>
+  <path d="M-20 320 L80 240 Q160 180 250 210 T500 160 L500 320 Z" fill="#66BB6A"/>
+  <path d="M40 250 Q140 200 200 220 T320 170" fill="none" stroke="#A1887F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M40 250 Q140 200 200 220 T320 170" fill="none" stroke="#D7CCC8" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="318" cy="168" r="10" fill="#EF5350"/>
+  <rect x="312" y="148" width="12" height="22" rx="3" fill="#FFCA28"/>
+  <circle cx="90" cy="270" r="8" fill="#EC407A"/>
+  <circle cx="120" cy="284" r="7" fill="#7E57C2"/>
+  <circle cx="430" cy="250" r="9" fill="#FFA726"/>
+</svg>

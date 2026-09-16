@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#1ea7ff">
+  <title>Where we can go for a walk · LETS GO!</title>
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/logo.svg">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <img src="/images/logo.svg" width="52" height="52" alt="">
+      <span class="brand-name">LETS GO!</span>
+    </a>
+    <a class="nav-home" href="/">Home</a>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <h1 class="page-title">Where we can go for a walk</h1>
+      <p class="lede">Tap CHOOSE on the walk you like.</p>
+    </section>
+    <section class="identity" aria-live="polite">
+      <div class="identity-me">
+        <span class="blob" id="my-blob" hidden></span>
+        <span id="my-colour-label">Getting your colour…</span>
+      </div>
+      <p class="hint" id="switch-hint">Want a new one? Tap CHOOSE on a different place.</p>
+    </section>
+    <p class="status" id="status" hidden></p>
+    <section class="walks-grid" id="walks-grid" aria-label="Walk places"></section>
+  </main>
+  <script src="/js/walks.js" defer></script>
+</body>
+</html>
