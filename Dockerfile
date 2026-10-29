@@ -1,5 +1,7 @@
 # ---- build ----
-FROM node:20-alpine AS builder
+# Pinned to Node 22.23.4: fixes CVE-2026-111497 (Node2Shell, zlib Brotli RCE).
+# Fixed lines: 22.23.4 / 24.22.1 / 26.12.1. Do not go below 22.23.4.
+FROM node:22.23.4-alpine AS builder
 WORKDIR /app
 
 COPY package.json package-lock.json* ./
@@ -9,7 +11,7 @@ COPY . .
 RUN npm run build
 
 # ---- run ----
-FROM node:20-alpine AS runner
+FROM node:22.23.4-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
