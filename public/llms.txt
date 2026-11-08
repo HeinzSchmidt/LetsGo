@@ -1,0 +1,10 @@
+# LETS GO!
+
+> Pick fun family walks together. Big buttons, bright colours!
+
+A colourful, iPad-first family travel web app for picking walks together. Big touch targets, bright cards, short kid-friendly text.
+
+## Pages
+
+- [Home](https://letsgo.batleth.com/): big LETS GO! title, kid tagline, button to walks
+- [Walks](https://letsgo.batleth.com/walks): grid of places with photo, name, CHOOSE toggle, and optional YouTube overlay
